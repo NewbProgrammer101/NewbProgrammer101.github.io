@@ -1,22 +1,23 @@
+---
+title: Home
+layout: default
+---
 <!DOCTYPE html>
 <html>
-<body>
+<head>
+<div class="jumbotron">
+	<div class="jumbotron-content">
+		<img alt="{{ site.title }}" src="/public/media/header.png" width="50%" />
+		<p>A free, moddable and open source voxel game and game engine.</p>
+	</div>
+	img {
+		webkit-filter: blur(5px);
+		filter:blur(5px);
+	}
+</div>
 
-<h1 style="color:blue;">Hi guys</h1>
-
-<p>My name is Jalus Bilieyich.</p>
-<p>List of my mods for Minetest:</p>
-  <a href="https://github.com/NewbProgrammer101/Lore-mod">Lore-mod</a>
-<p>Mods and Subgames I contributed to:</p>
-  <a href="https://github.com/NewbProgrammer101/Lord-of-the-Test">Lord of the Test</a>
-<p>Other:</p>
-  <a href="mailto:countolaf17@gmail.com">Feel free to email me about anything</a>
-
-<h2>About me:</h2>
-<p>C programmer. Libertarian. Everyday user of Gentoo.</p>
-<p>Gamer, no Steam. Traveler. Unacknowledged Proficient writer.</p> 
-<p>I'll post my stories and poems sometime.</p>
-
-<p><img src="what.png" width="275" height="30">I found this gem in Dwarf Fortress while talking with a poet.</p>
-</body>
+<div class="content">
+	<p>Welcome to {{ site.title }}!</p>
+</div>
+</head>
 </html>
